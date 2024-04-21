@@ -4,7 +4,7 @@
     "paths": {
       "@/*": ["./*"]
     },
-    "target": "es5",
+    "target": "es2015",
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
     "skipLibCheck": true,
@@ -20,5 +20,5 @@
     "noEmit": true,
     "jsx": "react-jsx"
   },
-  "include": ["src", "public/Table.tsx"]
+  "include": ["src", "src/components/Table.tsx"]
 }
