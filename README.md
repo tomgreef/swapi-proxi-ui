@@ -2,6 +2,16 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# TODO List
+
+- Use axios to fetch data from the API. An alternative could have been GraphQL and make use of the caching it provides, but adds too much overhead.
+- Add pagination to the Table with [Tailwind component](https://tailwindui.com/components/application-ui/navigation/pagination).
+- Add search field, with a debounce, to fetch results from the API.
+- Create two new endpoints on API, one to fetch a list of people and one to fetch a person info based on ID instead of search params.
+- Create an ErrorBoundry component for the react-router-dom in case of unexpected errors.
+- Docker solution for the UI project.
+- Docker compose solution for both the UI and API project.
+
 ## Available Scripts
 
 In the project directory, you can run:
